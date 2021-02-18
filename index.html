@@ -3,20 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My First HTML</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Chris's Portfolio</title>
 </head>
-<body>
-	<h1>Student Bio</h1>
-	<h2>Chris Picano</h2>
-	<img src="https://via.placeholder.com/150x150" />
-	<!-- <img src="images/dave.png" /> -->
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ut repellendus esse totam animi in, architecto perferendis accusantium nesciunt, ab obcaecati expedita hic itaque veniam non aspernatur aut ea reprehenderit.</p>
+<body id="siteBody">
+	<!-- Image and text nav bar -->
+<nav class="navbar navbar-dark bg-dark">
+	<div class="container-fluid">
+	  <a class="navbar-brand" >
+		<img src="images/codingGlobe.jpg" alt="" width="85" height="69" class="nav-text">
+		Chris's Coding World
+	  </a>
+	</div>
+  </nav>
+	
+	<img id="portrait" src="https://via.placeholder.com/150x150" />
+	<h1>Chris Picano</h1>
+	<p>Hello world! I am Christopher Picano, I am just dipping my foot into the coding world and am starting to learn about all the good things this world has to offer. I started my journy off at UPENN's LPS Coding Boot Camp, a program where I am currently enrolled in and is perfect for beginners such as myself who have had no prior experience with coding. I recenlty just finished half the program and earned myself the title as a "Front End Web Developer"! I am now embarcking on a new journey into the back end of web development and working towards becoming a "Full-Stack Web Developer"! :-) </p>
 	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto mollitia velit pariatur dignissimos sit nihil distinctio consectetur soluta qui? Alias, voluptate quos id veritatis amet necessitatibus harum itaque velit blanditiis.</p>
 	<h2>Contact Info</h2>
 	<ul>
-		<li><strong>Email:</strong> <a href="mailto:cpicano25@gmail.com">cpicano25@gmail.com</a></li>
-		<li><strong>GitHub:</strong> <a href="https://github.com/chrispicano" target="_blank">chrispicano</a></li>
-		<li><strong>Portfolio:</strong> <a href="#">Coming Soon...</a></li>
+		<li><strong>Email:</strong> <a href="mailto:cpicano25@gmail.com"><img id="mail" src="images/mail-logo.png"></a></li>
+		
+		<li><strong>GitHub:</strong> <a href="https://github.com/chrispicano" ><img id="gitHub" src="images/Octocat.png"></a></li>
+		
+		<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chris-picano-b202551b9/"><img id="linkIn" src="images/linkedin-logo-copy.png"> </a></li>
 	</ul>
 </body>
 </html>
