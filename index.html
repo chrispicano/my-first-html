@@ -5,6 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
+	<script
+       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+       crossorigin="anonymous"></script>
 	<title>Chris's Portfolio</title>
 </head>
 <body id="siteBody">
@@ -19,9 +23,39 @@
   </nav>
 	
 	<img id="portrait" src="images/portrait.jpg" />
-	<h1>Chris Picano</h1>
-	<p>Hello world! I am Christopher Picano, I am just dipping my foot into the coding world and am starting to learn about all the good things this world has to offer. I started my journy off at UPENN's LPS Coding Boot Camp, a program where I am currently enrolled in and is perfect for beginners such as myself who have had no prior experience with coding. I recenlty just finished half the program and earned myself the title as a "Front End Web Developer"! I am now embarcking on a new journey into the back end of web development and working towards becoming a "Full-Stack Web Developer"! :-) </p>
-	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto mollitia velit pariatur dignissimos sit nihil distinctio consectetur soluta qui? Alias, voluptate quos id veritatis amet necessitatibus harum itaque velit blanditiis.</p>
+	<h1><strong>Chris Picano</strong></h1>
+	<p id="bio">Hello world! I am Christopher Picano, I am just dipping my foot into the coding world and am starting to learn about all the good things this world has to offer. I started my journey off at UPENN's LPS Coding Boot Camp, a program where I am currently enrolled in and is perfect for beginners such as myself who have had no prior experience with coding. I recenlty just finished half the program and earned myself the title as a "Front End Web Developer"! I am now embarcking on a new journey into the back end of web development and working towards becoming a "Full-Stack Web Developer"! :-) </p>
+	<!--Work Examples-->
+	<h3><strong>Checkout My Work!</strong></h3>
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="images/projectDemo.png" class="d-block w-50" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="images/workDayPlanner.png" class="d-block w-50" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="images/weatherDashboard.png" class="d-block w-50" alt="...">
+		  </div>
+		</div>
+		<div id="slideButtons">
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+		</div>
+	  </div>
+	<!--Contact sector-->
 	<h2>Contact Info</h2>
 	<ul>
 		<li><strong>Email:</strong> <a href="mailto:cpicano25@gmail.com"><img id="mail" src="images/mail-logo.png"></a></li>

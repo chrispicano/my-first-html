@@ -1,15 +1,20 @@
 #siteBody {
-    background-color: whitesmoke;
-    padding:10px 5px 15px 20px;
+    background-color:#efeee7;
+    padding:10px 5px 10px 5px;
+    margin: 0;
 }
 
-h1 {
+h1,h3 {
     font-size: 25px;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    align-items: flex-end;
 }
 
 .nav-brand {
     font-size: 65px;
+    
 }
 
 #linkIn {
@@ -28,4 +33,12 @@ h1 {
     width: 250px;
     height: 200px;
     padding: 5px 5px 5px 5px;
+}
+#bio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carouselExampleIndicators{
+    width: 50%;
+    align-items: center;
 }
